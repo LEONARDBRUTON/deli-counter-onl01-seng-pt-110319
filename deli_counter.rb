@@ -23,7 +23,7 @@ def take_a_number(katz_deli, name)
   new2_array = []
   if katz_deli.length > 1 
      katz_deli.each do |name| 
-     new2_array<< (" #{count}. #{name } ")
+
      count += 1
     end 
   else  puts "Welcome, #{name}. You are number #{count} in line."
