@@ -26,7 +26,7 @@ def take_a_number(katz_deli, name)
      new2_array<< (" #{count}. #{name } ") || (" #{count}. #{new_name}") 
      count += 1
     end 
-   # puts "Welcome, #{name}.  You are number #{count} in line.#{new2_array.join("")}"
+    puts "Welcome, #{name}.  You are number #{count} in line.#{new2_array.join("")}"
   # else  puts "Welcome, #{name}. You are number #{count} in line."
    end
 end
