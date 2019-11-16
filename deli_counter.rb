@@ -1,6 +1,6 @@
 
 
-katz_deli = []
+katz_deli = [""]
 
 def line(array)
  new_array = []
