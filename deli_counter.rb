@@ -23,7 +23,8 @@ def take_a_number(new_array, name)
      new_array.each do |name| 
      new_array2<< (" #{count}. #{name } ") || (" #{count}. #{new_name}") 
      count += 1
-    end puts "The line is currently:#{new_array2.join("")}"
+    end 
+    puts "The line is currently:#{new2_array.join("")}"
    else  puts "Welcome, #{name}. You are number #{count} in line."
    end
 end
