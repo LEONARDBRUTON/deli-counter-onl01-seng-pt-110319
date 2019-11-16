@@ -21,7 +21,7 @@ def take_a_number(new_array, name)
   new2_array = []
   if new_array.length > 1 
      new_array.each do |name| 
-     new_array2<< (" #{count}. #{name } ") || (" #{count}. #{new_name}") 
+     new2_array<< (" #{count}. #{name } ") || (" #{count}. #{new_name}") 
      count += 1
     end 
     puts "The line is currently:#{new2_array.join("")}"
