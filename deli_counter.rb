@@ -13,7 +13,7 @@ def line(array)
     count += 1
   end
    puts "The line is currently:#{new_array.join("")}"
- else puts "The line is currently empty"
+ else puts "The line is currently empty."
  end
 end
 
