@@ -19,7 +19,7 @@ end
 
 
 def take_a_number(katz_deli, name)
-  count = 1
+
   new2_array = []
   if katz_deli.length > 1 
      katz_deli.each do |name| 
