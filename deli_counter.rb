@@ -21,8 +21,8 @@ end
 def take_a_number(katz_deli, name)
   count = 1
   new2_array = []
-  if new_array.length > 1 
-     new_array.each do |name| 
+  if katz_deli.length > 1 
+     katz_deli.each do |name| 
      new2_array<< (" #{count}. #{name } ") || (" #{count}. #{new_name}") 
      count += 1
     end 
